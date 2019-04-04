@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <title>Converter</title>
+</head>
+<body>
+
+<form method="post" action="/converter">
+    <select name='Available_Currencies'>
+      <option value="USD">USD</option>
+      <option value="BGN">BGN</option>
+      <option value="CZK">CZK</option>
+      <option value="EUR">EUR</option>
+      <option value="GBP">GBP</option>
+      <option value="CNY">CNY</option>
+    </select>
+
+    <select name='Desired_Currencies'>
+      <option value="USD">USD</option>
+      <option value="BGN">BGN</option>
+      <option value="CZK">CZK</option>
+      <option value="EUR">EUR</option>
+      <option value="GBP">GBP</option>
+      <option value="CNY">CNY</option>
+    </select>
+
+
+    <div id="home-page">
+            <label for="amount">Amount:</label>
+            <input type="amount" id="amount" name="amount" required="required">
+            <input type="Convert" value="Convert" id="Convert-button">
+</form>
+       </div>
+
+</body>
+</html>
