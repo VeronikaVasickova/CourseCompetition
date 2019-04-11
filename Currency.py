@@ -37,6 +37,7 @@ def GetCurrency():
     a=Decimal(amount)
     convertion_rate = c.get_rate(selected_currency, desired_currency)
     res = Decimal(convertion_rate)*a
+    res = round(res, 2)
     return render_template("expenditure.html", result = res )
 
 if __name__ == "__main__":
