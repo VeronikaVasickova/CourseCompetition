@@ -1,1 +1,1 @@
-worker: python Currency.py
+web: python Currency.py
